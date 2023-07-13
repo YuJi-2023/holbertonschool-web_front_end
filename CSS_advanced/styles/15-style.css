@@ -1,11 +1,14 @@
 @import "styles/normalize.css";
+
 * {
   box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
   }
+
 body {
   color: var(--color-black);
   font-family: var(--font-family-base);
