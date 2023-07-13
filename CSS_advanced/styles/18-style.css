@@ -30,7 +30,7 @@ a:active {background-color: var(--color-light-grey);}
 
 .navbar-menu {float: right;}
 .nav {
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -45,10 +45,10 @@ a:active {background-color: var(--color-light-grey);}
 .nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: var(--nav-item-link-hover);
 }
+.nav .nav-link :hover {color: var(--nav-item-link-hover);}
 .visually-hidden {display: None}
-.card-category {color: var(--color-primary)}
+.card-category {color: var(--color-primary);}
 .section {
   padding: var(--section-padding);
 }
