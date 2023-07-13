@@ -46,7 +46,7 @@ a:active {background-color: var(--color-light-grey);}
 }
 .container {
   width: 960px;
-  margin: auto;
+  margin: 2em auto;
 }
 :root {
   --color-primary: #d73953;
