@@ -1,6 +1,6 @@
 @import "styles/normalize.css";
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 html {
     scroll-behavior: smooth;
