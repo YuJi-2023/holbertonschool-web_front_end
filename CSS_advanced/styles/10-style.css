@@ -12,6 +12,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
+  --section-header-align: center
 }
 a {
   color: #161616;
@@ -41,4 +42,3 @@ a {
   --line-height-base: 1.5;
   --line-height-big: 1.8;
 }
-header {--section-header-align: center;}
